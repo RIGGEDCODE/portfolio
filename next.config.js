@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    distDir: 'dist',
+    output: 'export',
     images: {
-        unoptimized: true,
-    }
-}
-
+      unoptimized: true,
+    },
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  }
+  
 module.exports = nextConfig
