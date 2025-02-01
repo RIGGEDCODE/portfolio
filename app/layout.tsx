@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'RiggedCode',
   description: 'Portfolio Website By: kr.ankit253@gmail.com',
 }
-
+// add comment
 export default function RootLayout({
   children,
 }: {
